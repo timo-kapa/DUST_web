@@ -30,7 +30,7 @@
       // Load the glTF model
       const loader = new THREE.GLTFLoader();
       loader.load(
-        'https://your-public-url.com/your-model.gltf',
+        'https://public-url.com/3d-model.gltf',
         (gltf) => {
           scene.add(gltf.scene);
         },
